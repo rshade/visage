@@ -5,10 +5,10 @@ source 'http://rubygems.org'
 gemspec
 
 group :development do
-  gem 'rake'
+  gem 'rake', '~> 10.0.3'
   gem 'rack-test'
-  gem 'rspec'
-  gem 'cucumber'
+  gem 'rspec', '~> 2.13.0'
+  gem 'cucumber', '~>1.3'
   gem 'capybara'
   gem 'colorize'
   gem 'ronn'
