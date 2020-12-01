@@ -20,3 +20,9 @@ group :development do
   gem 'guard-rake'
   gem 'delorean'
 end
+
+gem "shotgun", "~> 0.9.2"
+
+gem "librrd", "~> 1.0"
+
+gem "thin", "~> 1.6"
