@@ -29,4 +29,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency     "errand",          "= 0.8.0"
   s.add_runtime_dependency     "yajl-ruby",       "= 1.1.0"
   s.add_runtime_dependency     "activemodel",     "~> 3.2.12"
+  s.add_runtime_dependency     "librrd",          "~> 1.0"
 end

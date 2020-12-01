@@ -5,6 +5,7 @@ PATH
       activemodel (~> 3.2.12)
       errand (= 0.8.0)
       haml
+      librrd (~> 1.0)
       sinatra (= 1.4.4)
       sinatra-contrib (= 1.4.2)
       yajl-ruby (= 1.1.0)
