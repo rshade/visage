@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "visage-app"
 
-  s.required_ruby_version     = ">= 1.8.7"
+  s.required_ruby_version     = ">= 1.9.3"
   s.required_rubygems_version = ">= 1.3.6"
 
   s.files         = `git ls-files`.split("\n")
@@ -23,8 +23,8 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency     "sinatra",         "= 1.4.3"
-  s.add_runtime_dependency     "sinatra-contrib", "= 1.4.0"
+  s.add_runtime_dependency     "sinatra",         "= 1.4.4"
+  s.add_runtime_dependency     "sinatra-contrib", "= 1.4.2"
   s.add_runtime_dependency     "haml",            ">= 0"
   s.add_runtime_dependency     "errand",          "= 0.8.0"
   s.add_runtime_dependency     "yajl-ruby",       "= 1.1.0"
